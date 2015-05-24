@@ -1,0 +1,16 @@
+{
+  "name": "pinf.io-for-unix",
+  "dependencies": {
+    "bash.origin": "0.1.x",
+    "org.pinf.genesis.lib": "0.1.x"
+  },
+  "config": {
+    "org.pinf.genesis.lib/0": {
+      "api": {
+        "provides": {
+          "virtual-os": "./api/virtual-os.js"
+        }
+      }
+    }
+  }
+}
